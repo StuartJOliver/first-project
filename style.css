@@ -1,120 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
 body{
-
-    font-family: "Caveat", cursive;
-    font-size: 16px;
-    background-image: url(./Images/beans_background.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% cover;
-    width: 98vw;
+    background-color: #1c1c1c;
+    margin: 10;
     
 }
-
-:root{
-    --bground: #4d4d4d;
-    --text: rgb(0, 0, 0);
-    --navbg: #c0c0c0;
-    --bar2back: #532c03;
-    --product: white;
-        
+*{
+    font-family: "Roboto", sans-serif;
 }
-
-#navbar1{
-    display: flex;
-    align-items: center ;
-    width: 50vw;
-    font-weight: 900;
-    margin: 10vw 13vw 0 ;
-    padding: 0  9%;    
-    text-shadow: -7px -5px 2px var(--navbg);  
-}
-
-#navbar2{
-    display: flex;
-    justify-content: center;
-    margin: 0 0 50px;
-    gap: 30px;
-}
-
-#welcome_logo{
-    display: flex;
-    justify-content: center;
-    gap: 50px;
-    }
-
-a{
-    text-decoration: none;
-    font-size: 3.5rem;
-    color: var(--bar2back);
-}
-
-a:hover {
-    text-decoration: none;
-}
-
-a:active {
-    text-decoration: none;
-}
-
-#beans{
-    margin-right: auto;
-}
-#link1, #link2{
-    margin: 0 1rem;
-    padding: 0 1%;
-}
-
-h1{
-    font-size: 3rem;
+p, q{
+    color: #ffffff;
     text-align: center;
-    color: var(--bar2back);
-    border-radius: 50px;
 }
-
-p{
-    font-size: 2rem;
+h1, h2{
+    color: #f5b32f;
     text-align: center;
-    color: var(--bar2back);
-}
 
-#img1{
+}
+.navbar{
+    text-align: center;
+    background-color: #f5b32f;
+    font-size: 200%;
+}
+.centerimg{
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    margin: 3rem 0 3rem 0;
     
 }
-
-#welcome_logo{
+.textwrap{
     display: flex;
+    justify-content: center;
+    margin: 30px;
+   
+}
+.quote1{
+    display:flex;
+    margin: 50px 0;
     justify-content: center;
     align-items: center;
-    
-}
-
-.product{
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-
-}
-
-.product>div{
-    width: 15%;
-    text-align: center;
-    font-size: 1.4rem;
-    color: var(--text);
-    text-shadow: -5px -5px 7px var(--product);
-}
-
-.price{
-    display: flex;
-    justify-content: center;
-    gap: 8vw;
-    color: var(--bar2back);
-    text-shadow: -5px -5px 7px var(--product);
-    font-size: 3rem;
-    font-weight: 900;
+    gap: 50px;
 }
